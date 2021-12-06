@@ -1,0 +1,40 @@
+html, body { height: 100% }
+
+body {
+  display: flexbox;
+  align-items: center;
+  background-color: #ffffffbe;
+}
+
+.medicamentos{
+  max-width: 500px;
+  margin: 0 auto;
+  max-height: 900px;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+   text-align: center;
+}
+.container h1 {
+    color: black;
+    line-height: 90px; 
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase; 
+    opacity: 1;
+  }
+  .btn {
+    color: #fff;
+    background: #000;
+    padding: 10px 40px;
+    line-height: 20;
+    text-decoration: none; 
+    transition: .5s; 
+  }
